@@ -1,0 +1,32 @@
+.form-input__error {
+    outline-color: red;
+}
+
+.form__row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20px;
+	color: #222222;
+	width: 100%;
+}
+.form__row span {
+	min-width: 80px;
+}
+
+.form__row input[type="text"],
+.form__row textarea {
+	margin-left: 10px;
+	max-width: 500px;
+	width: 100%;
+}
+
+form {
+	background: #eee;
+	padding: 10px 20px;
+}
+
+input.btn {
+	width: 250px;
+	display: block;
+}
