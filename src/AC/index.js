@@ -1,4 +1,4 @@
-import {DELETE_ARTICLE, INCREMENT, START, SUCCESS, FAIL} from '../constants'
+import {DELETE_ARTICLE, INCREMENT} from '../constants'
 
 export function increment() {
     return {
